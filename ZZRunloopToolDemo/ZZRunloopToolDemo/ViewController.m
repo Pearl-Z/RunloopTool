@@ -1,13 +1,14 @@
 //
 //  ViewController.m
-//  runloopTest
+//  ZZRunloopToolDemo
 //
-//  Created by xcz on 16/6/4.
+//  Created by xcz on 16/6/22.
 //  Copyright © 2016年 Pearl-Z. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "ZZRunloopTool.h"
+#import "UITableViewCell+ZZRunloopTool.h"
 
 static NSString *IDENTIFIER = @"IDENTIFIER";
 
@@ -67,7 +68,7 @@ static CGFloat CELL_HEIGHT = 135.f;
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = image;
     [cell.contentView addSubview:imageView];
-   
+    
 }
 
 + (void)task_4:(UITableViewCell *)cell indexPath:(NSIndexPath *)indexPath  {
@@ -102,19 +103,16 @@ static CGFloat CELL_HEIGHT = 135.f;
     [ViewController task_5:cell indexPath:indexPath];
     [ViewController task_1:cell indexPath:indexPath];
     [self.runLoopTool addTask:^void(void) {
-        NSLog(@"1--%@",cell.currentIndexPath);
         if ([cell.currentIndexPath isEqual:indexPath]) {
             [ViewController task_2:cell indexPath:indexPath];
         }
     } withKey:indexPath];
     [self.runLoopTool addTask:^void(void) {
-        NSLog(@"2--%@",cell.currentIndexPath);
         if ([cell.currentIndexPath isEqual:indexPath]) {
             [ViewController task_3:cell indexPath:indexPath];
         }
     } withKey:indexPath];
     [self.runLoopTool addTask:^void(void) {
-        NSLog(@"3--%@",cell.currentIndexPath);
         if ([cell.currentIndexPath isEqual:indexPath]) {
             [ViewController task_4:cell indexPath:indexPath];
         }
@@ -152,3 +150,4 @@ static CGFloat CELL_HEIGHT = 135.f;
 }
 
 @end
+

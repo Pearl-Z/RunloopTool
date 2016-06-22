@@ -7,7 +7,7 @@
 //
 
 #import "ZZRunloopTool.h"
-#import <objc/runtime.h>
+
 
 @interface ZZRunloopTool()
 
@@ -60,7 +60,7 @@
 
 
 - (void)runLoopWorkTaskCallBack:(ZZRunloopTool *)runLoopTool{
-//    NSLog(@"-----%@",runLoopTool.tasks);
+    NSLog(@"-----%@",runLoopTool.tasks);
     if (runLoopTool.tasks.count == 0) {
         return;
     }
@@ -78,18 +78,3 @@
 @end
 
 
-
-@implementation UITableViewCell (ZZRunloopTool)
-
-@dynamic currentIndexPath;
-
-- (NSIndexPath *)currentIndexPath {
-    NSIndexPath *indexPath = objc_getAssociatedObject(self, @selector(currentIndexPath));
-    return indexPath;
-}
-
-- (void)setCurrentIndexPath:(NSIndexPath *)currentIndexPath {
-    objc_setAssociatedObject(self, @selector(currentIndexPath), currentIndexPath, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-@end

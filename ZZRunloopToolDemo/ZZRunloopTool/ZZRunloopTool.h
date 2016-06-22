@@ -18,10 +18,3 @@ typedef void (^ZZRunloopToolTaskUnit)(void);
 - (void)removeAllTasks;
 
 @end
-
-
-@interface UITableViewCell (ZZRunloopTool)
-
-@property (nonatomic, strong) NSIndexPath *currentIndexPath;
-
-@end

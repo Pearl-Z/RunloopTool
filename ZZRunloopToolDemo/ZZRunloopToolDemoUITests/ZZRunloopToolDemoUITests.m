@@ -1,18 +1,18 @@
 //
-//  runloopTestUITests.m
-//  runloopTestUITests
+//  ZZRunloopToolDemoUITests.m
+//  ZZRunloopToolDemoUITests
 //
-//  Created by xcz on 16/6/4.
+//  Created by xcz on 16/6/22.
 //  Copyright © 2016年 Pearl-Z. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface runloopTestUITests : XCTestCase
+@interface ZZRunloopToolDemoUITests : XCTestCase
 
 @end
 
-@implementation runloopTestUITests
+@implementation ZZRunloopToolDemoUITests
 
 - (void)setUp {
     [super setUp];

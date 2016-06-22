@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33C053B31D02B35900564A1E"
-               BuildableName = "runloopTest.app"
-               BlueprintName = "runloopTest"
-               ReferencedContainer = "container:runloopTest.xcodeproj">
+               BlueprintIdentifier = "33D8BCFA1D1A58F4008E6779"
+               BuildableName = "ZZRunloopToolDemo.app"
+               BlueprintName = "ZZRunloopToolDemo"
+               ReferencedContainer = "container:ZZRunloopToolDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33C053CC1D02B35A00564A1E"
-               BuildableName = "runloopTestTests.xctest"
-               BlueprintName = "runloopTestTests"
-               ReferencedContainer = "container:runloopTest.xcodeproj">
+               BlueprintIdentifier = "33D8BD131D1A58F4008E6779"
+               BuildableName = "ZZRunloopToolDemoTests.xctest"
+               BlueprintName = "ZZRunloopToolDemoTests"
+               ReferencedContainer = "container:ZZRunloopToolDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33C053D71D02B35A00564A1E"
-               BuildableName = "runloopTestUITests.xctest"
-               BlueprintName = "runloopTestUITests"
-               ReferencedContainer = "container:runloopTest.xcodeproj">
+               BlueprintIdentifier = "33D8BD1E1D1A58F4008E6779"
+               BuildableName = "ZZRunloopToolDemoUITests.xctest"
+               BlueprintName = "ZZRunloopToolDemoUITests"
+               ReferencedContainer = "container:ZZRunloopToolDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33C053B31D02B35900564A1E"
-            BuildableName = "runloopTest.app"
-            BlueprintName = "runloopTest"
-            ReferencedContainer = "container:runloopTest.xcodeproj">
+            BlueprintIdentifier = "33D8BCFA1D1A58F4008E6779"
+            BuildableName = "ZZRunloopToolDemo.app"
+            BlueprintName = "ZZRunloopToolDemo"
+            ReferencedContainer = "container:ZZRunloopToolDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33C053B31D02B35900564A1E"
-            BuildableName = "runloopTest.app"
-            BlueprintName = "runloopTest"
-            ReferencedContainer = "container:runloopTest.xcodeproj">
+            BlueprintIdentifier = "33D8BCFA1D1A58F4008E6779"
+            BuildableName = "ZZRunloopToolDemo.app"
+            BlueprintName = "ZZRunloopToolDemo"
+            ReferencedContainer = "container:ZZRunloopToolDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33C053B31D02B35900564A1E"
-            BuildableName = "runloopTest.app"
-            BlueprintName = "runloopTest"
-            ReferencedContainer = "container:runloopTest.xcodeproj">
+            BlueprintIdentifier = "33D8BCFA1D1A58F4008E6779"
+            BuildableName = "ZZRunloopToolDemo.app"
+            BlueprintName = "ZZRunloopToolDemo"
+            ReferencedContainer = "container:ZZRunloopToolDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

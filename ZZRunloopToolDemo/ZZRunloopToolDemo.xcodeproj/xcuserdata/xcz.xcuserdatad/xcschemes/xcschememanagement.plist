@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>runloopTest.xcscheme</key>
+		<key>ZZRunloopToolDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33C053B31D02B35900564A1E</key>
+		<key>33D8BCFA1D1A58F4008E6779</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>33C053CC1D02B35A00564A1E</key>
+		<key>33D8BD131D1A58F4008E6779</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>33C053D71D02B35A00564A1E</key>
+		<key>33D8BD1E1D1A58F4008E6779</key>
 		<dict>
 			<key>primary</key>
 			<true/>
